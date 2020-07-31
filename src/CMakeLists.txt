@@ -11,11 +11,11 @@ target_sources(
 
 # set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake")
 
-add_subdirectory(internals)
+# add_subdirectory(darknet)
 
 target_include_directories(DriverAI PRIVATE ${PROJECT_SOURCE_DIR}/include)
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
-target_link_libraries(DriverAI PRIVATE Threads::Threads)
+target_link_libraries(DriverAI PRIVATE Threads::Threads GDI)
 

@@ -7,6 +7,7 @@ target_sources(
     ${PROJECT_SOURCE_DIR}/src/json.cpp
     ${PROJECT_SOURCE_DIR}/src/tools.cpp
     ${PROJECT_SOURCE_DIR}/src/Bitmap.cpp
+    ${PROJECT_SOURCE_DIR}/src/anyoption.cpp
 )
 
 # set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake")

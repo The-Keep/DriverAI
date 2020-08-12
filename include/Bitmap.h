@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _BITMAP_H
+#define _BITMAP_H
 
 #include <fstream>
 #include <iostream>
@@ -40,3 +41,5 @@ class Bitmap
     void clear();
     Bitmap* deep_copy();
 };
+
+#endif

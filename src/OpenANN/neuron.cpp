@@ -1,5 +1,5 @@
 #include "OpenANN/neuron.h"
-#include "OpenANN/activations.h"
+#include "OpenANN/functions.h"
 
 using namespace std;
 

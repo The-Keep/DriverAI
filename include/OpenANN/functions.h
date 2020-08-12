@@ -6,7 +6,7 @@ namespace OpenANN
     typedef float (*activation)(float x);
 
     float sigmoid(float x);
-    float msa_loss(float truth, float prediction);
+    // float msa_loss(float truth, float prediction);
 }  // namespace OpenANN
 
 #endif

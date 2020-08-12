@@ -1,5 +1,6 @@
 #include "OpenANN/functions.h"
 
+#include "OpenANN/neuron.h"
 #include <math.h>
 #include "Eigen/Core"
 #include "Eigen/Dense"
@@ -10,7 +11,8 @@ namespace OpenANN
 {
     float sigmoid(float x) { return 1 / (1 + exp(-x)); };
 
-    float msa_loss(Vector<float, Dynamic> truth, Vector<float, Dynamic> prediction) {
-        auto m = (truth - prediction).pow(2).mean();
-    }
+    // float msa_loss(ArrayF truth, ArrayF prediction) {
+    //     ArrayF result = (truth - prediction).pow(2);
+    //     return result.mean();
+    // }
 }  // namespace OpenANN
